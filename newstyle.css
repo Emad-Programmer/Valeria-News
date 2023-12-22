@@ -1,0 +1,114 @@
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header styles */
+.mainhead {
+    display: flex;
+    /* Makes the header a flexbox */
+    flex-direction: row;
+    /* Stacks children Horizontally */
+    align-items: flex-start;
+    /* Aligns children to the left */
+    padding: 0px 80px;
+    /* Adds padding around the header */
+    background-color: black;
+    /* Sets background color to black */
+    width: 100%;
+}
+
+
+/* Logo styles */
+.logo {
+    max-width: 250px;
+    min-width: 100px;
+}
+
+/* Navigation bar styles */
+nav {
+    display: flex;
+    /* Makes the navigation bar a flexbox */
+    flex-direction: row;
+    margin-top: 27px;
+    margin-left: auto;
+    /* Pushes navigation towards the right */
+    margin-right: auto;
+    /* Pushes navigation towards the left (centering it) */
+    width: 70%;
+    /* Defines navigation bar width as 80% (adjustable) */
+}
+
+/* Navigation link styles */
+nav a {
+    text-decoration: none;
+    /* Removes underline from navigation links */
+    color: white;
+    /* Sets navigation link color to white */
+    padding: 10px;
+    /* Adds padding to navigation links */
+    width: 100%;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #333;
+    /* Changes background color on hover */
+}
+
+.comp {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* Aligns children to the left */
+    padding: 0px 80px;
+    /* Adds padding around the header */
+    width: 100%;
+    background-color: burlywood;
+}
+
+.flag {
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.types {
+    display: flex;
+    /* Makes the header a flexbox */
+    align-content: start;
+    font-size: 20px;
+    align-items: center;
+    padding: 0px;
+
+}
+
+hr {
+    border-color: black;
+    border-width: 1px;
+    margin: 8px 0px;
+
+}
+
+
+
+
+.news-article {
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+
+.NewsPics {
+    width: 50%;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 20px;
+}
